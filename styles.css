@@ -1,0 +1,56 @@
+/*Body Parts*/
+body
+{
+    background-color: rgb(16, 6, 83);
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    margin: 3% 10%;
+    font-family: 'Silkscreen', sans-serif;
+
+}
+footer{
+    margin-top: 4%;
+    color: #fff;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+
+}
+
+/*Boxes*/
+.game{
+margin: auto;
+display: block;
+text-align: center;
+
+    
+}
+.box{
+    display: inline-block;
+    text-align: center;
+    width: 12rem;
+    height: 12rem;
+    border: 0.4rem solid black;
+    border-radius: 20%;
+    margin: 1%;
+}
+
+#red{
+background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+/*Effects*/
+.wrong{
+    background-color: red;
+}
